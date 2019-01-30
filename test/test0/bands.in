@@ -1,0 +1,5 @@
+&bands
+  filband='bands.dat'
+  outdir='./output',
+  lsym=.true.
+/

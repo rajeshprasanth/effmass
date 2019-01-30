@@ -1,0 +1,36 @@
+#--------------------------------------------------------------------
+# Makefile written effmass
+# Written by Rajesh Prashanth Anandavadivel
+# Time : Sun Oct  7 14:53:45 IST 2018
+#--------------------------------------------------------------------
+.SUFFIXES: .inc .f .f90
+#
+include ../make.inc
+
+
+
+SRCS = kinds.f90 \
+constants.f90 \
+date_and_tim.f90 \
+global_variables.f90 \
+read_namelist.f90 \
+functions.f90 \
+ordinate_conversion.f90 \
+genkpoints.f90 \
+effmass.f90 \
+
+OBJS = kinds.o \
+constants.o \
+date_and_tim.o \
+global_variables.o \
+read_namelist.o \
+functions.o \
+ordinate_conversion.o \
+genkpoints.o \
+effmass.o  \
+
+all: $(OBJS)
+	$(FC) $(FCFLAGS) $(OBJS) -o effmass.x
+
+clean:
+	-/bin/rm -f *.o *.x *~ *.mod

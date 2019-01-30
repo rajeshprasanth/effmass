@@ -1,0 +1,9 @@
+MODULE kinds
+	IMPLICIT NONE
+	SAVE
+	INTEGER, PARAMETER :: DP = selected_real_kind(14,200)
+
+	PRIVATE
+	PUBLIC :: DP
+
+END MODULE kinds

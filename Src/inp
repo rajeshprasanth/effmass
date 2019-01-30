@@ -1,0 +1,15 @@
+&input
+	prefix='test0'
+	mode = 'generate',
+	ibands = 5,
+	stencil = 'three',
+	istep = 0.00001,
+	alat = 10.0095895,
+	eigenvalue_file = 'eigenvalue.dat',
+	cell(1,:)= -0.500000,0.000000,0.500000,
+	cell(2,:)=  0.000000,0.500000,0.500000,
+	cell(3,:)= -0.500000,0.500000,0.000000,
+/
+
+crystal
+0.0000000   0.5000000   0.0000000
