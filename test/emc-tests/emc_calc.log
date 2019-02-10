@@ -1,0 +1,11 @@
+ Effective Mass Calculator calculator 1.5f    
+Date 02/10/2019;time 08:52:18
+
+ direct lattice vectors              reciprocal lattice vectors
+  5.648000  0.000000  0.000000       1.112462  0.000000 -0.000000
+  0.000000  5.648000  0.000000       0.000000  1.112462 -0.000000
+  0.000000  0.000000  5.648000       0.000000  0.000000  1.112462
+
+nbands, band, dk:    24   16  0.010000
+k-point in reciprocal space:  0.000000  0.000000  0.000000
+
